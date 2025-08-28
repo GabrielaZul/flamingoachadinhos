@@ -1,4 +1,4 @@
-fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vRLhZHTR9K7WaNhIstVzqw4QTCZtBHLKTBkV_qg9yg2nAVlARY3poQiZf2uGNaHamZioXB3_C3e4Gno/pub?output=csv')
+fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vRqZBsue3lqIEBGZoQDw6F0_k89uumdm-hLEaCF9EBOIS7t48rCnQhM9ZbVv8MYmPrFtHJLXBI6uRo7/pub?output=csv')
   .then(res => res.text())
   .then(csvText => {
     const resultado = Papa.parse(csvText, {
