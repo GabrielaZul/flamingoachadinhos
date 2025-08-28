@@ -79,7 +79,7 @@ header {
 }
 
 .botao {
-  background: #FF7B54;
+  background: #ff87c7;
   color: white;
   padding: 10px 15px;
   border-radius: 30px;
@@ -90,5 +90,5 @@ header {
 }
 
 .botao:hover {
-  background: #FF4500;
+  background: #d31e9d;
 }
