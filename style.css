@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Fredoka', sans-serif;
-  background: #FFA54B;
+  background: #ffe2dc;
   color: #2F2F2F;
   text-align: center;
   padding: 20px;
@@ -19,7 +19,7 @@ header {
 .logo {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  /*border-radius: 45%;*/
   overflow: hidden;
   object-fit: cover;
   transform: scale(1.2);
@@ -42,7 +42,7 @@ header {
 }
 
 .filter-button {
-  background: #FFB347;
+  background: #ff87c7;
   border: none;
   padding: 10px 20px;
   margin: 5px;
@@ -54,7 +54,7 @@ header {
 }
 
 .filter-button:hover {
-  background: #FF7B54;
+  background: #d31e9d;
   color: #fff;
 }
 
